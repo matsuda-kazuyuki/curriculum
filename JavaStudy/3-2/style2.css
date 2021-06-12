@@ -25,33 +25,35 @@ body {
     background-color: #80bfa8;
 }
 
-.center{ 
+.main-right {
+	float: right;
+	width: 100px;
+	height: 150px;
+	background: #ff9e6b;	
+}
+
+.main-left-top{ 
     float: left;
     width: 150px;
     height: 50px;
     background-color: #dbd400;
 }
 
-.center-top-left-top{ 
+.main-left-bottom{ 
     float: left;
     width: 150px;
     height: 100px;
     background-color: #0093b7;
 }
 
-.center-top-left-bottom{ 
+.bottom{ 
     float: left;
     width: 250px;
     height: 100px;
     background-color: #8c2727;
 }
 
-.right {
-	float: right;
-	width: 100px;
-	height: 150px;
-	background: #ff9e6b;	
-}
+
 
 .footer {
 	width: 400px;

@@ -11,20 +11,20 @@
         width: 100px;
     }
     
-    .center {
+    .main-right {
+        width: 75px;
+    }
+    
+    .main-left-top {
         width: 125px;
     }
     
-    .center-top-left-top {
+    .main-left-bottom {
         width: 125px;
-    }
-    
-    .center-top-left-bottom {
-        width: 200px;
     }
 
-    .right {
-        width: 75px;  
+    .bottom {
+        width: 200px;  
     }
 
     .footer {
@@ -45,25 +45,29 @@
     
     .left {
         width: 150px;
-        height: 100px
-        
+        height: 100px;
+        float: none;
     }
     
-    .center {
+    .main-right {
         width: 150px;
+        height: 100px;
+        float: none;
     }
     
-    .center-top-left-top {
+    .main-left-top {
         width: 150px;
+        float: none;
     }
     
-    .center-top-left-bottom {
+    .main-left-bottom {
         width: 150px;
+        float: none;
     }
 
-    .right {
+    .bottom {
         width: 150px; 
-        height: 100px;
+        float: none;
     }
 
     .footer {
