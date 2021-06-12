@@ -4,7 +4,7 @@
     }
     
     .header {
-        height: 210px;
+        height: 200px;
         width: 200px;
     }
 
@@ -17,20 +17,19 @@
 
     .header-inner1 {
         border: solid 10px white;
+        float: none;
     }
     
     .header-inner2 {
         border-width: 0px 10px 0px 10px;
+        float: none;
     }
     
     .header-inner3 {
         border: solid 10px white;
+        float: none;
     }    
 
-    .left-center{ 
-        height: 100px;
-        width: 200px;
-    }
     .header-box {
         width: 60px;
         position: relative;
@@ -38,21 +37,29 @@
         right: 70px;     
     }
     
-    .right {
-        height: auto;
+    .left{ 
+        height: 200px;
         width: 200px;
+        float: none;
+    }
+
+    .right {
+        height: 200px;
+        width: 200px;
+        padding: 10px,30px,10px,30px
+
     }
 
     .right-inner1{
-        margin: 20px 20px 0px 30px;
+        margin: 10px 30px 0px 30px;
     }
 
     .right-inner2{
-        margin: 10px 20px 0px 30px;
+        margin: 10px 30px 0px 30px;
     }
     
     .right-inner3{
-        margin: 10px 20px 20px 30px;
+        margin: 10px 30px 10px 30px;
     }
 
     .footer {
@@ -60,3 +67,4 @@
     }
 
 }
+
