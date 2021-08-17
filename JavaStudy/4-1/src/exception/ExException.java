@@ -1,5 +1,4 @@
 package exception;
- 
 import java.util.Scanner;
  
 /**
@@ -59,18 +58,20 @@ public class ExException {
                 switch (parameter) {
                     case CONST_EXCEPTION_TRIGER_NULL:
                     // 問①: 強制的に「NullPointerException」を発生させるメソッドを作成し、呼び出しなさい。
-                    new NullPointerException();
                     // 問①は最下部にもあります。
                     // ルール: ここへ作成したメソッドを呼び出す
-                    inputFile();
+                    NullPo();
                     break;
+                    
+                    
                     case CONST_EXCEPTION_TRIGER_ARRAY_OUT_OF_BOUNDS:
                     // 問②: 「throw」を使用せずに「ArrayIndexOutOfBoundsException」を発生させる処理を記述しなさい。
                     // Tips: ご自身で配列を準備してください（使用する配列の型、要素数は自由）
-                    	
                     int[] arrayNumbers = {1, 2, 3};
                     arrayNumbers[10]= 12;
                     break;
+                    
+                    
                     case CONST_EXCEPTION_TRIGER_CAST:
                     String castedStrValue = (String) CONST_OBJ_FOR_CLASS_CAST;
                     System.out.println(castedStrValue);
@@ -104,14 +105,9 @@ public class ExException {
      * ルール2: 例外発生時に設定するメッセージは、定義済みの定数から適当なものを指定してください。
      */
     // 
-    private static void inputFile() throws NullPointerException, ArrayIndexOutOfBoundsException, ClassCastException {
-    	  Scanner sc = new Scanner (System.in);  
-          System.out.print(CONST_MSG_NULLPO); 
-          outputFileContents(sc);
+    private static void NullPo() throws NullPointerException {
+        throw new NullPointerException(CONST_MSG_NULLPO);
     }
-    private static void outputFileContents(final Scanner sc) throws ArrayIndexOutOfBoundsException, ClassCastException {
-     	  
-	}
 
 	/**
      * @param e 発生した例外
